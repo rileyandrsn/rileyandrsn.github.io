@@ -4,7 +4,7 @@ import './Resources/app.css';
 
 function Landing(){
     return(
-    <main> 
+    <main className='App'> 
         <article>
          <h2>About Me</h2> 
          <p>I am currently a sophomore at Arizona State University pursuing a 
