@@ -11,7 +11,6 @@ function Aside() {
     <h4>Computer science student at Arizona State University</h4>
     <ul>
       <li>Puyallup, WA and Tempe, AZ</li>
-      <li>Sophomore</li>
       <li>Email</li>
       <li>LinkedIn</li>
       <li>Github</li>
