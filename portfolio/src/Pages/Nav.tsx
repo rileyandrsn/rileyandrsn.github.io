@@ -4,10 +4,18 @@ const Nav: React.FC = () => {
     return (
         <>
             <nav className="header">
-                <Link to="/">RILEY ANDERSON</Link>
                 <ul className="nav-links">
+                <li>
+                        <Link  className="projects link" to="/Projects">about me </Link>
+                    </li>
                     <li>
-                        <Link  className="projects link" to="/Projects">projects</Link>
+                    <Link  className="blog link" to="/Blog">projects</Link>
+                    </li>
+                    <li>
+                        <Link  className="projects link" to="/Projects">blog</Link>
+                    </li>
+                    <li>
+                    <Link  className="blog link" to="/Blog">contact</Link>
                     </li>
                 </ul>
             </nav>
