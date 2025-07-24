@@ -1,5 +1,5 @@
 import React from 'react';
-import './Resources/home.css';
+import './Resources/app.css';
 import portfolioImage from './Resources/portfolio.png';
 
 function Aside() {

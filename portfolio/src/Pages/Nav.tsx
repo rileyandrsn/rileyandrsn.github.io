@@ -1,5 +1,5 @@
 import { Outlet, Link } from "react-router-dom";
-
+import './Resources/app.css';
 const Nav: React.FC = () => {
     return (
         <>
