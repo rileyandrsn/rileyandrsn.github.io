@@ -1,8 +1,11 @@
+/* IMPORTS*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 html, body {
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 .main{
     font-family: Montserrat, serif;
     color:white;
@@ -14,23 +17,23 @@ html, body {
     height: 100%;
 }
 
-.header{
-  color:white;
-  background-color: black;
-  display:flex;
-  flex-direction: row;
-  justify-content: center;
+  /* Container for text to the left of globe video*/
+.left-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
+  /* Spinning globe mp4 loop*/
 .globeVid{
   width: 90%;
   height: 90%;
   z-index: 1;
   display: block;
   margin-left: 58%;
-  
 }
 
+  /* Introductory typed-text*/
 .introText{
   font-size: 5em;
   font-weight: bolder;
@@ -42,6 +45,15 @@ html, body {
   margin-left: .5em;
   margin-top: -2em;
   white-space: nowrap;
+}
+
+  /* Nav bar and nav link properties*/
+.header{
+  color:white;
+  background-color: black;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .nav-links{
@@ -60,21 +72,16 @@ html, body {
   color:white;
   font-size: 1.2em;
   text-transform: uppercase;
+  cursor: pointer;
 }
 
 .link:hover{
   text-decoration: underline;
-  font-size:1.15em;
   text-decoration-color:white ;
 
 }
 
-.left-column {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-}
-
+  /* Text below typing-effect introductory text*/
 .subtitle {
   margin-left: 2.9em;
   margin-top: 1.5 em;
@@ -84,6 +91,7 @@ html, body {
   z-index: 3;
 }
 
+  /* Button for resume download, hover effects*/
 .resumeBtn{
   display:flex;
   justify-content: center;
@@ -105,17 +113,20 @@ html, body {
   transition: background 0.3s, border-color 0.3s, transform 0.2s;
 }
 
+
 .resumeBtn:hover {
   background-color: #000000;
-  border-color: #ffffffff;
-  color: #ffffffff;
+  border-color: rgb(14, 143, 255);
+  color: rgb(255, 255, 255);
   transform: scale(1.05);
 }
 
+/* Bring in additional information after introductory text finishes typing*/
 .fade-in {
   opacity: 0;
   animation: fadeInUp 0.8s ease-out forwards;
 }
+
 
 @keyframes fadeInUp {
   from {
@@ -128,6 +139,43 @@ html, body {
   }
 }
 
+  /* About me section*/
+  .aboutSection{
+    color:white;
+    margin-left:50em;
+  }
+
+  .aboutSub{
+    text-transform: capitalize;
+    white-space: nowrap;
+  }
+
+  .aboutP{
+    white-space:nowrap; 
+    font-size: 1.2  em;
+  }
+
+  /* Projects section*/
+  .projectsSection{
+    color:white;
+    margin-left: 5em;
+    margin-top:25em;  
+  }
+
+  .projectsSub{
+    text-transform: capitalize;
+    white-space: nowrap;
+  }
+
+  .project-links{
+    display:flex;
+    flex-direction: row;
+    gap:3em;
+    list-style: none;
+  }
+
+
+ /* Social link container*/ 
 .socials{
   display:flex;
   flex-direction: column;
@@ -137,6 +185,7 @@ html, body {
   left:0.5%;
 }
 
+/* Bar below Social links in bottom left */
 .social-bar{
   width:0.15em;
   height:6em;
@@ -144,16 +193,18 @@ html, body {
   background-color:white;
 }
 
+/* Properties for LinkedIn logo in bottom left */
 .linkedinImg{
 
   margin-top:0.4em;
 }
 
 .linkedinImg:hover{
-  margin-bottom: 0.2em;
+  margin-bottom: 0.2  em;
   
 }
 
+/* Properties for Github logo in bottom left */
 .githubImg{
   margin-bottom: 0.4em;
   margin-top:0.4em;
