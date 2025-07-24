@@ -2,7 +2,7 @@ import React from 'react';
 import './Resources/home.css';
 import portfolioImage from './Resources/portfolio.png';
 
-function App() {
+function Aside() {
   return (
 
     <aside>
@@ -21,4 +21,4 @@ function App() {
   );
 }
 
-export default App;
+export default Aside;
