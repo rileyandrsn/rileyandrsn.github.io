@@ -6,7 +6,7 @@ const Nav: React.FC = () => {
             <nav className="header">
                 <ul className="nav-links">
                 <li>
-                        <Link  className="projects link" to="/Projects">about me </Link>
+                        <Link  className="projects link" to="/">about me </Link>
                     </li>
                     <li>
                     <Link  className="blog link" to="/Blog">projects</Link>
