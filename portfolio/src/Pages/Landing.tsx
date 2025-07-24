@@ -1,5 +1,5 @@
 import React from 'react';
-import Rotating_Globe from './Resources/globe_video.mp4';
+import Rotating_Globe from './Resources/compressed_video.mp4';
 function Landing(){
     return(
     <main> 
