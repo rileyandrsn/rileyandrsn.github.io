@@ -4,12 +4,15 @@ import './Resources/app.css';
 import { ReactTyped } from 'react-typed';
 import portfolioImage from './Resources/portfolio.png';
 import { motion, useScroll, useTransform, useMotionValue } from "framer-motion";
+import linkedinLogo from './Resources/linkedin.png';
+import githubLogo from './Resources/github.png';
 function Landing(){
     const [showDetails, setShowDetails] = useState(false);
     return(
     <main className='main'> 
         {/* Left column: intro text and subtitle */}
         <section className='left-column'>
+
           <article className='introText'>
             <ReactTyped
                 strings={["Hey, I'm Riley Anderson"]}
@@ -32,7 +35,11 @@ function Landing(){
             Your browser does not support the video tag.
           </video>
         </section>
-
+          <section className='socials'>
+            <a className='linkedinImg' href='https://www.linkedin.com/in/riley-anderson-b2417132a/'><img height="40" width="40" src={linkedinLogo}/></a>
+            <a className='githubImg' href='https://github.com/rileyandrsn'><img height="40" width="40" src={githubLogo}/></a>
+            <div className='social-bar'></div>
+          </section>
   
     </main>
     );

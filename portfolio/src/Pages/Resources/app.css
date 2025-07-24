@@ -1,3 +1,7 @@
+html, body {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 .main{
     font-family: Montserrat, serif;
@@ -23,7 +27,7 @@
   height: 90%;
   z-index: 1;
   display: block;
-  margin-left: 60%;
+  margin-left: 58%;
   
 }
 
@@ -122,4 +126,40 @@
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+.socials{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  position:fixed;
+  bottom:0;
+  left:0.5%;
+}
+
+.social-bar{
+  width:0.15em;
+  height:6em;
+
+  background-color:white;
+}
+
+.linkedinImg{
+
+  margin-top:0.4em;
+}
+
+.linkedinImg:hover{
+  margin-bottom: 0.2em;
+  
+}
+
+.githubImg{
+  margin-bottom: 0.4em;
+  margin-top:0.4em;
+}
+
+.githubImg:hover{
+  margin-bottom: 0.6em;
+  margin-top: 0.2em;
 }
