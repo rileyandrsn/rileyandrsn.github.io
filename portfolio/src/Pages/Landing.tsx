@@ -25,7 +25,7 @@ function Landing(){
           {showDetails && (
             <>
               <h2 className='subtitle fade-in'>Computer Science student at Arizona State University</h2>
-              <a className='resumeBtn fade-in' href='/sample.pdf' download>Resume</a>
+              <a className='resumeBtn fade-in' href='/rileyanderson_resume.pdf' download>Resume</a>
             </>
           )}
         </section>
