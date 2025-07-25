@@ -9,13 +9,13 @@ const Nav: React.FC = () => {
                         <Link  className="about link" to="/">about me </Link>
                     </li>
                     <li>
-                    <a  className="projects link" href="#projects">projects</a>
+                    <a  className="projects link" href="/#projects">projects</a>
                     </li>
                     <li>
                         <Link  className="blog link" to="/Blog">blog</Link>
                     </li>
                     <li>
-                    <a  className="contact link" href="#contact">contact</a>
+                    <a  className="contact link" href="/#contact">contact</a>
                     </li>
                 </ul>
             </nav>

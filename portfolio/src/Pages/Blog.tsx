@@ -27,7 +27,7 @@ function Projects() {
             <source src={Rotating_Globe} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
-          <h1>helllllodoasdosaodsada</h1>
+
           </section>
           <section className='socials'>
             <a className='linkedinImg' href='https://www.linkedin.com/in/riley-anderson-b2417132a/'><img height="40" width="40" src={linkedinLogo}/></a>

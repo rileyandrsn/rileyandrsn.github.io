@@ -2,12 +2,12 @@ import React, { useState } from 'react';
 import Rotating_Globe from './Resources/compressed_video.mp4';
 import './Resources/app.css';
 import { ReactTyped } from 'react-typed';
-import portfolioImage from './Resources/portfolio.png';
+import portfolioImage from './Resources/portfolio.jpg';
 import { motion, useScroll, useTransform, useMotionValue } from "framer-motion";
 import linkedinLogo from './Resources/linkedin.png';
 import githubLogo from './Resources/github.png';
 import email from './Resources/email.png';
-import pythonProjectImage from './Resources/javaproject.png';
+import pythonProjectImage from './Resources/PortScanSS.png';
 function Landing(){
     const [showDetails, setShowDetails] = useState(false);
     return(
@@ -24,7 +24,7 @@ function Landing(){
           </article>
           {showDetails && (
             <>
-              <h2 className='subtitle fade-in'>Computer Science Student at Arizona State University</h2>
+              <h2 className='subtitle fade-in'>Computer Science student at Arizona State University</h2>
               <a className='resumeBtn fade-in' href='/sample.pdf' download>Resume</a>
             </>
           )}
@@ -43,6 +43,8 @@ function Landing(){
             <div className='social-bar'></div>
           </section>
           <section className='aboutSection'>
+            <img className='portfolioImage' width={300} height={425} src={portfolioImage}/>
+            <div className='portfolioImageFrame'></div>
             <h2 className='aboutSub'>&lt; 1 / &gt; about me</h2>
             <p className='aboutP'>Hi, I’m Riley Anderson — a Computer Science student at Arizona State University with a passion for <br />
                                   building things that work and breaking  things to understand how they work. I’m especially interested<br /> 
