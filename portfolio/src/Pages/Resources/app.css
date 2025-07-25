@@ -195,22 +195,16 @@ html, body {
 
 /* Properties for LinkedIn logo in bottom left */
 .linkedinImg{
-
   margin-top:0.4em;
 }
 
-.linkedinImg:hover{
-  margin-bottom: 0.2  em;
-  
-}
 
 /* Properties for Github logo in bottom left */
 .githubImg{
-  margin-bottom: 0.4em;
-  margin-top:0.4em;
+  margin-top:0.2em;
 }
 
-.githubImg:hover{
-  margin-bottom: 0.6em;
-  margin-top: 0.2em;
+.emailImg{
+  margin-top:0.2em;
+  margin-bottom: 0.4em;
 }

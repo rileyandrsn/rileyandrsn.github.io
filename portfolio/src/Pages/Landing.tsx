@@ -51,11 +51,11 @@ function Landing(){
                                   complex math problems, I’m always driven by curiosity and a desire to grow. I’m actively seeking<br /> 
                                   opportunities to learn, collaborate, and contribute through internships or real-world projects.</p>
           </section>
-          <section className='projectsSection'>
+          <section id='projects' className='projectsSection'>
           <h2 className='projectsSub'>2  &gt; projects</h2>
           <ul className='project-links'>
             <li className='python link'>Python</li>
-            <li className='python link'>Java</li>
+            <li className='java link'>Java</li>
             <li className='c link'>C</li>
             <li className='matlab link'>MATLAB</li>
           </ul>

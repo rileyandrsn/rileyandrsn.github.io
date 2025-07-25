@@ -9,10 +9,10 @@ const Nav: React.FC = () => {
                         <Link  className="projects link" to="/">about me </Link>
                     </li>
                     <li>
-                    <Link  className="blog link" to="/Blog">projects</Link>
+                    <a  className="projects link" href="#projects">projects</a>
                     </li>
                     <li>
-                        <Link  className="projects link" to="/Projects">blog</Link>
+                        <Link  className="blog link" to="/Blog">blog</Link>
                     </li>
                     <li>
                     <Link  className="blog link" to="/Blog">contact</Link>
