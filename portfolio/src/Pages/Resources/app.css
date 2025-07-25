@@ -4,6 +4,7 @@
 html, body {
   overflow-x: hidden;
   scroll-behavior: smooth;
+  background-color: #000000;
 }
 
 .main{
@@ -143,6 +144,7 @@ html, body {
   .aboutSection{
     color:white;
     margin-left:50em;
+    margin-bottom: 1em;
   }
 
   .aboutSub{
@@ -207,4 +209,128 @@ html, body {
 .emailImg{
   margin-top:0.2em;
   margin-bottom: 0.4em;
+}
+
+/* Project display section*/
+.petProject {
+  display: flex;
+  z-index: 5;
+  flex-direction: row;
+  position: relative; /* Add for positioning context */
+  margin-top: 3em;
+}
+
+.projectImg {
+  z-index: 6;
+  position: relative; /* Ensure stacking context */
+}
+  /* Contact section*/
+  .contactSection{
+
+    color:white;
+    margin-left:30em;
+    margin-top: 8em;
+  }
+
+  .contactSub{    
+    margin: left 10em;
+    text-transform: capitalize;
+    white-space: nowrap;
+  }
+
+  .contactP{
+    white-space: nowrap;
+    text-align: center;
+  }
+
+.projectCaption {
+  color: black;
+  background-color: white;
+  z-index: 7;
+  margin-right: 2em;
+  margin-top: 4em;
+  position: absolute;
+  margin-left:35%;
+  top: 168%;
+  width: 40em;
+  height: 22em;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+  border-radius: 12px;
+  padding: 1.2em 2em;
+  transform: translateY(20px); 
+}
+
+.projectSubtitle{
+  font-size: 2.25em;
+}
+
+.techStack{
+  font-size:1.5em;
+}
+
+.projectDesc{
+  font-size: 1.2em;
+}
+
+.emailBtn{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  cursor:pointer;
+  text-decoration: none;
+  color:white;
+  border: 1px solid white;
+  border-radius: 25px;
+  width:8vw;
+  height:6vh;
+  text-align: center;
+  font-size:1rem; 
+  background-color: black;
+  text-transform: capitalize;
+  margin-top: 2em;
+  margin-left:15em;
+  z-index: 5;
+  transition: background 0.3s, border-color 0.3s, transform 0.2s;
+}
+
+
+.emailBtn:hover {
+  background-color: #000000;
+  border-color: rgb(14, 143, 255);
+  color: rgb(255, 255, 255);
+  transform: scale(1.05);
+}
+
+.footer-tag{
+  margin-top:20em;
+  white-space: nowrap;
+  font-size: 0.75em;
+  margin-left:20em;
+}
+
+.blog-sub{
+  color:white;
+  font-size:3em;
+  margin-left: 8%;
+  margin-top:5%;
+  z-index: 3;
+}
+
+.typedStrings{
+  color:white;
+  font-size:2em;
+  font-weight: bold;
+  margin-left: 15%;
+  z-index: 3;
+
+}
+
+.globeVidBlog{
+  width: 90%;
+  height: 90%;
+  z-index: 1;
+  display: block;
+  margin-left: 58%;
+  position:absolute;
+  bottom:0%;
 }
